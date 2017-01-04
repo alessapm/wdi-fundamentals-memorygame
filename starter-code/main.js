@@ -14,7 +14,7 @@ var card4 = "king";
 var board = document.getElementById("gameboard");
  
  var createCards = function(){
-	for (var i = 1; i<10; i++){
+	for (var i = 1; i<7; i++){
  		var card = document.createElement('div');
  		card.className = "card";
  		gameboard.appendChild(card);
