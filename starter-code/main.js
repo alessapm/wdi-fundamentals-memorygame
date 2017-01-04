@@ -13,15 +13,15 @@ var card4 = "king";
 
 var board = document.getElementById("gameboard");
  
- // var createCards = function(){
-	// for (var i = 1; i<10; i++){
- // 		var card = document.createElement('div');
- // 		card.className = "card";
- // 		gameboard.appendChild(card);
- // 	}
- // }
+ var createCards = function(){
+	for (var i = 1; i<10; i++){
+ 		var card = document.createElement('div');
+ 		card.className = "card";
+ 		gameboard.appendChild(card);
+ 	}
+ }
 
- // createCards()
+ createCards()
 
  var cards = ["queen", "queen", "king", "king"];
 
